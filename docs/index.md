@@ -7,13 +7,13 @@ Simple and easy-to-use React Native map component
 <table>
 <tr>
     <td colspan="2">
-        <img src="../assets/demos/d3.png"/>
+        <img src="/assets/demos/d3.png"/>
     </td>
     <td colspan="2">
-        <img src="../assets/demos//poi.png" />
+        <img src="/assets/demos//poi.png" />
     </td>
     <td colspan="2">
-        <img src="../assets/demos/draw.png" />
+        <img src="/assets/demos/draw.png" />
     </td>
 </tr>
 <tr>
