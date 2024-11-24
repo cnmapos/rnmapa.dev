@@ -3,6 +3,7 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "React Native Mapa",
+  base: '/rnmapa.dev',
   description: "React Native Map SDK for iOS and Android",
   head: [
     ['link', { rel: 'icon', href: '/assets/logo.svg' }] // 添加网站图标
