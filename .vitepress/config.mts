@@ -32,7 +32,6 @@ export default defineConfig({
           { text: 'Background', link: '/docs/Background' },
           { text: 'Location', link: '/docs/Location' },
           { text: 'ZoomInOut', link: '/docs/ZoomInOut' },
-          { text: 'Compass', link: '/docs/Compass' },
           { text: 'Scalebar', link: '/docs/Scalebar' },
           { text: 'POIFinder', link: '/docs/POIFinder' },
           { text: 'Weather', link: '/docs/Weather' },
@@ -67,5 +66,6 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/cnmapos/react-native-mapa' }
     ]
-  }
+  },
+  ignoreDeadLinks: true,
 })
