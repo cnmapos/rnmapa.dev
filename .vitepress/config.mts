@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "React Native Mapa",
   description: "React Native Map SDK for iOS and Android",
+  head: [
+    ['link', { rel: 'icon', href: '/assets/logo.svg' }] // 添加网站图标
+  ],
   themeConfig: {
     logo: '/assets/logo.svg',
     // https://vitepress.dev/reference/default-theme-config
@@ -62,7 +65,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/cnmapos/react-native-mapa' }
     ]
   }
 })

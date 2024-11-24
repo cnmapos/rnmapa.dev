@@ -11,12 +11,7 @@
       <stop offset="0%" style="stop-color:#78D6FF"/>
       <stop offset="100%" style="stop-color:#4AA9FF"/>
     </radialGradient>
-    
-    <!-- 大陆渐变 -->
-    <linearGradient id="land-gradient">
-      <stop offset="0%" style="stop-color:#90EE90"/>
-      <stop offset="100%" style="stop-color:#32CD32"/>
-    </linearGradient>
+
     
     <!-- 发光效果 -->
     <filter id="glow">
@@ -43,48 +38,33 @@
            stroke="rgba(255,255,255,0.2)" 
            stroke-width="1"/>
   
-  <!-- 简化的大陆 -->
-  <path d="M60 60 Q80 70 100 65 T140 80 Q120 100 100 90 T60 60" 
-        fill="url(#land-gradient)" 
-        opacity="0.6"/>
-  <path d="M70 110 Q90 120 110 115 T150 125 Q130 140 110 135 T70 110" 
-        fill="url(#land-gradient)" 
-        opacity="0.6"/>
   
   <!-- React 轨道 -->
   <g transform="rotate(30, 100, 100)">
     <ellipse cx="100" cy="100" rx="75" ry="25" 
              fill="none" 
              stroke="url(#orbit-gradient)" 
-             stroke-width="3"
+             stroke-width="6"
              stroke-dasharray="6,4"/>
   </g>
   <g transform="rotate(150, 100, 100)">
     <ellipse cx="100" cy="100" rx="75" ry="25" 
              fill="none" 
              stroke="url(#orbit-gradient)" 
-             stroke-width="3"
+             stroke-width="6"
              stroke-dasharray="6,4"/>
   </g>
   <g transform="rotate(270, 100, 100)">
     <ellipse cx="100" cy="100" rx="75" ry="25" 
              fill="none" 
              stroke="url(#orbit-gradient)" 
-             stroke-width="3"
+             stroke-width="6"
              stroke-dasharray="6,4"/>
   </g>
   
   <!-- React 核心 -->
-  <circle cx="100" cy="100" r="15" 
+  <circle cx="100" cy="100" r="20" 
           fill="#61DAFB" 
           filter="url(#glow)"/>
   
-  <!-- 位置标记 -->
-  <g transform="translate(100,100) scale(0.25)">
-    <path d="M0 -40 Q15 10 30 20 L0 0 L-30 20 Q-15 10 0 -40" 
-          fill="#FF6B6B" 
-          stroke="#ffffff" 
-          stroke-width="4"
-          filter="url(#glow)"/>
-  </g>
 </svg>

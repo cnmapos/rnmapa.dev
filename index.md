@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "React Native Mapa"
   logo: /assets/logo.svg
-  text: "Easy-to-use React Native map component"
+  text: "Easy-to-use React Native map components"
   tagline: React Native Map SDK for Android and IOS
   image:
     src: /assets/logo.svg
